@@ -1,0 +1,86 @@
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Rainy background */
+body.rainy-background {
+  background-image: url('../images/rainy-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Sunny background */
+body.sunny-background {
+  background-image: url('../images/sunny-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Cloudy background */
+body.cloudy-background {
+  background-image: url('../images/cloudy-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.container {
+  width: 400px;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.weather-info {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #5975d1bb;
+  border: 1px solid #436ad3;
+  border-radius: 4px;
+}
+
+.loading-message {
+  color: #333;
+  font-size: 16px;
+}
